@@ -40,23 +40,17 @@ Each project is powered by a modern tech stack to ensure performance, scalabilit
 
 🔹 Frontend
 HTML5, CSS3, JavaScript
-
 React.js
-
 Tailwind CSS, Bootstrap, SASS
 
 🔹 Backend
 Node.js
-
 Express.js
-
 MongoDB
 
 🔹 Tools & Utilities
 Git & GitHub
-
 Webpack, REST APIs, GraphQL
-
 Axios, JWT Authentication
 
 🎯 Key Features
@@ -72,31 +66,14 @@ JWT-based user authentication implemented across projects.
 🌐 API Integration
 Real-time data fetching using REST & GraphQL.
 
-🖼️ Project Previews
-Project	Screenshot
-Portfolio Website	
-E-Commerce App	
-Blog CMS	
-
-Replace the image URLs with your actual screenshots!
-
 📬 Contact Me
 Let’s connect!
 💬 If you have feedback, questions, or collaboration ideas:
 
 📧 Email: malikmuzamil92110@example.com
-
 💼 LinkedIn: linkedin.com/in/malik-muzamil
 
-“Code is like humor. When you have to explain it, it’s bad.” — Cory House
-
 Thanks for visiting! 🚀
-
-yaml
-Copy
-Edit
-
----
 
 ### 🔧 Tips to Make it Even Better
 
