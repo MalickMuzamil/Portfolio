@@ -203,7 +203,7 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "Working with Muzamil was super smooth. He got our web dashboard running perfectly on both desktop and mobile — and always delivered before deadline.",
+      "Working with Muzamil was super smooth. He got our web dashboard running perfectly on both desktop and mobile and always delivered before deadline.",
     name: "Rachel Meyer",
     designation: "Operations Lead",
     company: "Clarity Tools",
@@ -243,7 +243,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "Our clients love the new portal Muzamil built. He understood exactly what we wanted — and even suggested smart improvements we hadn’t thought of.",
+      "Our clients love the new portal Muzamil built. He understood exactly what we wanted and even suggested smart improvements we hadn’t thought of.",
     name: "Arisha Khan",
     designation: "Client Success Manager",
     company: "FlowSpark",
