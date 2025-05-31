@@ -19,9 +19,6 @@ import {
   redux,
   tailwind,
   threejs,
-  firstTestimonial,
-  secondTestimonial,
-  thirdTestimonial,
 } from '../assets'
 
 
@@ -32,6 +29,12 @@ import Project3 from "../assets/Project3.png"
 import Project4 from "../assets/Project4.jpg"
 import Project5 from "../assets/Project5.jpg"
 
+import FirtstImage from "../assets/Testimonials/FirstImage.jpeg"
+import secondImage from "../assets/Testimonials/SecondImage.jpeg"
+import ThirdImage from "../assets/Testimonials/ThirdImage.jpeg"
+import ForthImage from "../assets/Testimonials/ForthImage.jpeg"
+import FifthImage from "../assets/Testimonials/FifthImage.jpeg"
+import SixthImage from "../assets/Testimonials/SixthImage.jpeg"
 
 
 export const navLinks = [
@@ -200,27 +203,51 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "Muzamil played a key role in developing our SaaS platform's frontend with Angular clean code, pixel-perfect UI, and reliable delivery. Couldn't have asked for more.",
-    name: "Adeel Khan",
-    designation: "Product Manager",
-    company: "SaaSync",
-    image: firstTestimonial,
+      "Working with Muzamil was super smooth. He got our web dashboard running perfectly on both desktop and mobile — and always delivered before deadline.",
+    name: "Rachel Meyer",
+    designation: "Operations Lead",
+    company: "Clarity Tools",
+    image: FirtstImage,
   },
   {
     testimonial:
-      "We needed someone who could handle both backend logic and complex UI interactions. Muzamil's full stack skills made our web app smooth, fast, and scalable.",
-    name: "Imran",
-    designation: "CTO",
-    company: "Workly.io",
-    image: secondTestimonial,
+      "We had an outdated portal, and Muzamil revamped it beautifully with modern Angular animations and quick APIs. Definitely saved us time and money.",
+    name: "Danish Mehmood",
+    designation: "Founder",
+    company: "PakTech Solutions",
+    image: secondImage,
   },
   {
     testimonial:
-      "Muzamil transformed our legacy system into a modern Angular-based application. The performance boost and UI/UX improvement were immediately noticeable.",
-    name: "Zeeshan Raza",
-    designation: "Team Lead",
-    company: "NextTech Labs",
-    image: thirdTestimonial,
+      "I’m not a tech person, but Muzamil broke down everything so clearly. He built our internal CRM, and it's now 10x easier to use. Highly recommend him.",
+    name: "John Tylor",
+    designation: "Office Manager",
+    company: "BrightDesk Co.",
+    image: ThirdImage,
+  },
+  {
+    testimonial:
+      "Our Angular frontend needed serious optimization. Muzamil cleaned up the codebase and improved loading time by over 60%. We’re super happy with the results.",
+    name: "Sania Irfan",
+    designation: "Product Designer",
+    company: "InvoHub",
+    image: ForthImage,
+  },
+  {
+    testimonial:
+      "As a startup, we needed someone flexible. Muzamil jumped in and owned the whole stack like a champ. From APIs to UI, he nailed it.",
+    name: "Luis Hernandez",
+    designation: "Co-founder",
+    company: "StartupNest",
+    image: SixthImage, 
+  },
+  {
+    testimonial:
+      "Our clients love the new portal Muzamil built. He understood exactly what we wanted — and even suggested smart improvements we hadn’t thought of.",
+    name: "Arisha Khan",
+    designation: "Client Success Manager",
+    company: "FlowSpark",
+    image: FifthImage,
   },
 ];
 
