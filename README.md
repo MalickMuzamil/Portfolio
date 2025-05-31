@@ -16,57 +16,49 @@ This collection highlights a variety of **Full Stack Projects**, crafted with a 
 Follow these simple steps to run any of the projects locally:
 
 ### 1️⃣ Clone the Repository
-```bash
 git clone https://github.com/MuzamilTeamSeven/VercelPortfolio.git
 
-2️⃣ Navigate to a Project
-bash
-Copy
-Edit
+### 2️⃣ Navigate to a Project
 cd project-name
-3️⃣ Install Dependencies
-bash
-Copy
-Edit
+
+### 3️⃣ Install Dependencies
 npm install
-4️⃣ Start the Project
-bash
-Copy
-Edit
+
+### 4️⃣ Start the Project
 npm start
 
-🛠️ Technologies Used
+### 🛠️ Technologies Used
 Each project is powered by a modern tech stack to ensure performance, scalability, and a seamless user experience.
 
-🔹 Frontend
+### 🔹 Frontend
 HTML5, CSS3, JavaScript
 React.js
 Tailwind CSS, Bootstrap, SASS
 
-🔹 Backend
+### 🔹 Backend
 Node.js
 Express.js
 MongoDB
 
-🔹 Tools & Utilities
+### 🔹 Tools & Utilities
 Git & GitHub
 Webpack, REST APIs, GraphQL
 Axios, JWT Authentication
 
-🎯 Key Features
+### 🎯 Key Features
 ✨ Responsive Design
 Optimized for all devices — mobile, tablet, and desktop.
 
-🔍 SEO Optimized
+### 🔍 SEO Optimized
 Clean structure and metadata for better search engine visibility.
 
-🔒 Secure Auth
+### 🔒 Secure Auth
 JWT-based user authentication implemented across projects.
 
-🌐 API Integration
+### 🌐 API Integration
 Real-time data fetching using REST & GraphQL.
 
-📬 Contact Me
+### 📬 Contact Me
 Let’s connect!
 💬 If you have feedback, questions, or collaboration ideas:
 
