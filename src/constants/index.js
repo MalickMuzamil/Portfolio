@@ -28,6 +28,7 @@ import Project2 from "../assets/Project2.png"
 import Project3 from "../assets/Project3.png"
 import Project4 from "../assets/Project4.jpg"
 import Project5 from "../assets/Project5.jpg"
+import Project6 from "../assets/Project6.png"
 
 import FirtstImage from "../assets/Testimonials/FirstImage.jpeg"
 import secondImage from "../assets/Testimonials/SecondImage.jpeg"
@@ -353,6 +354,11 @@ const projects = [
         name: "MongoDB",
         color: "blue-text-gradient",
       },
+      {
+        name: "Frontend Development",
+        color: "blue-text-gradient",
+      },
+      
     ],
     image: Project4,
     source_code_link: "https://github.com/MalickMuzamil",
@@ -388,6 +394,43 @@ const projects = [
       },
     ],
     image: Project5,
+    source_code_link: "https://github.com/MalickMuzamil",
+  },
+  {
+    name: "EverGreen",
+    description:
+      "Evergreen is a modern web application built with Next.js, Tailwind CSS, and AOS (Animate On Scroll). It features smooth animations, responsive design, and real-time data handling that exports CSV files and updates a live Excel sheet.",
+    tags: [
+      {
+        name: "SaaS Development",
+        color: "white-text-gradient",
+      },
+      {
+        name: "MERNStack",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "NEXTJS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "ExcelSheet",
+        color: "green-text-gradient",
+      },
+      {
+        name: "CSV",
+        color: "white-text-gradient",
+      },
+      {
+        name: "Frontend Development",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "UI/UX Design",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: Project6,
     source_code_link: "https://github.com/MalickMuzamil",
   },
 ];
