@@ -8,6 +8,8 @@ import { github } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 
+import { useNavigate } from "react-router-dom";
+
 // Register ScrollTrigger plugin
 gsap.registerPlugin(ScrollTrigger);
 
@@ -45,8 +47,14 @@ const ProjectCard = ({
     );
   }, []);
 
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    navigate("/project-detail", { state: { name, description, tags, image, source_code_link } });
+  };
+
   return (
-    <div ref={cardRef}>
+    <div ref={cardRef} onClick={handleClick} className="cursor-pointer">
       <Tilt
         options={{
           max: 45,
@@ -54,6 +62,7 @@ const ProjectCard = ({
           speed: 450,
         }}
         className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
+        onClick={handleClick}
       >
         <div className="relative w-full h-[230px]">
           <img
@@ -144,4 +153,4 @@ const Works = () => {
   );
 };
 
-export default SectionWrapper(Works, "");
+export default SectionWrapper(Works, "projects");

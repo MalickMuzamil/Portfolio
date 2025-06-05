@@ -51,6 +51,10 @@ export const navLinks = [
     title: "Work",
   },
   {
+    id: "projects",
+    title: "Projects"
+  },
+  {
     id: "contact",
     title: "Contact",
   },
@@ -240,7 +244,7 @@ const testimonials = [
     name: "Luis Hernandez",
     designation: "Co-founder",
     company: "StartupNest",
-    image: SixthImage, 
+    image: SixthImage,
   },
   {
     testimonial:
@@ -358,7 +362,7 @@ const projects = [
         name: "Frontend Development",
         color: "blue-text-gradient",
       },
-      
+
     ],
     image: Project4,
     source_code_link: "https://github.com/MalickMuzamil",
