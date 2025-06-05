@@ -259,8 +259,18 @@ const testimonials = [
 const projects = [
   {
     name: "RKMG Business",
-    description:
-      "RKMG Business is a platform that simplifies ecommerce with easy product search, seamless purchasing, and excellent customer support. Using advanced technology and intuitive design, it connects providers with consumers, driving growth and enhancing the shopping experience.",
+    description: `
+      RKMG Business is an innovative e-commerce platform tailored for modern businesses and consumers looking for a seamless, fast, and intuitive shopping experience. The platform integrates powerful product search algorithms allowing users to easily discover exactly what they need, even within extensive catalogs. With dynamic filtering, real-time search suggestions, and product previews, the user journey is both swift and enjoyable.
+
+      RKMG also offers a streamlined purchasing workflow — from adding to cart, to secure checkout, and smart delivery tracking, every step is built for efficiency. It incorporates secure payment gateways, automated invoicing, and responsive order support, all of which are accessible on desktop or mobile.
+
+      Behind the scenes, RKMG leverages HTML5 and Bootstrap for a visually appealing, responsive interface, while React ensures lightning-fast interactions and dynamic content rendering. The UI/UX design was developed with accessibility and clarity in mind, minimizing user friction and maximizing conversion rates.
+
+      Admin and vendor dashboards offer in-depth insights — including sales analytics, inventory management, customer engagement tools, and promotional campaign managers. Everything is designed to help business owners thrive in the competitive digital landscape.
+
+      RKMG is more than a shopping website — it’s an ecosystem for scaling commerce, building brand loyalty, and creating exceptional customer experiences.
+`
+    ,
     tags: [
       {
         name: "HTML5",
@@ -285,8 +295,18 @@ const projects = [
   },
   {
     name: "RIVIO",
-    description:
-      "RIVIO is a web-based platform designed to streamline tracking processes. It enables users to efficiently monitor activities, shipments, or tasks in real-time. With a user-friendly interface and advanced features, RIVIO ensures accurate and up-to-date information, helping businesses.",
+    description: `
+    RIVIO is a comprehensive, web-based tracking platform purpose-built for organizations that need precision and control over their workflow logistics. Whether you’re managing a warehouse, coordinating deliveries, or tracking high-priority shipments, RIVIO provides a centralized solution for seamless task visibility and control.
+
+    The system employs real-time data synchronization across devices, giving users the ability to monitor, assign, and update tasks as they happen. With a modular architecture based on the MEAN stack (MongoDB, Express.js, Angular, Node.js), RIVIO is highly scalable and ideal for both small teams and enterprise operations.
+
+    It supports automated alerts, analytics dashboards, location tracking, and role-based access — making it secure and efficient. Angular’s component-based UI gives users a fluid experience, with no page reloads, and interactive visualization of timelines, progress bars, and maps.
+
+    RIVIO also integrates with third-party APIs such as shipping couriers, IoT sensors, and enterprise resource planning tools. The platform is mobile-optimized and works offline-first in critical areas.
+
+    In sum, RIVIO is not just a tracker — it’s a smart assistant for operations that demand clarity, speed, and reliability.
+`
+    ,
     tags: [
       {
         name: "Mean Stack",
@@ -310,8 +330,18 @@ const projects = [
   },
   {
     name: "IngleWood Coffee Roaster",
-    description:
-      "IngleWood Coffee is your ultimate destination for premium coffee beans and accessories. Whether you're a coffee enthusiast or a professional, explore a wide range of coffee seeds, roasters, and equipment to elevate your brewing experience all in one place at any time!",
+    description: `
+      IngleWood Coffee Roaster is an elegant online platform for coffee lovers and professionals to explore and purchase a curated selection of coffee beans, roasters, brewing tools, and accessories. With a user-friendly interface built in React, and powerful backend powered by Node, Express, and MongoDB, the application delivers a premium digital experience.
+
+      The platform showcases a blend of storytelling and e-commerce, with product pages featuring roasting profiles, origin stories, grind options, and brewing tips. Users can search and filter by flavor notes, region, roast level, and caffeine content.
+
+      It also includes a subscription model allowing customers to receive curated beans monthly, adjusted based on their taste preferences using a built-in quiz flow.
+
+      From an admin perspective, store owners can manage inventory, monitor trends, and communicate promotions directly via the dashboard. The platform also uses analytics to track conversion rates, customer retention, and cart abandonment.
+
+      IngleWood isn’t just a store; it’s a digital extension of the coffee culture.
+      `
+    ,
     tags: [
       {
         name: "react",
@@ -335,8 +365,18 @@ const projects = [
   },
   {
     name: "Dealerheim",
-    description:
-      "Dealerheim is your ultimate destination for buying and selling premium cars. Whether you're a car enthusiast or a professional dealer, explore a wide range of vehicles, from luxury to everyday models, all in one place. Find your perfect ride or list your car for sale anytime, anywhere!",
+    description: `
+      Dealerheim is an advanced automobile marketplace that brings both car dealers and individual customers together onto a seamless and highly customizable platform. Built using the MERN stack, it ensures optimal performance, scalability, and flexibility.
+
+      Users can browse, compare, and filter a wide variety of vehicles — ranging from luxury brands to budget-friendly daily drivers. Real-time search, saved wishlists, and side-by-side vehicle comparisons enhance the shopping experience.
+
+      Listings include 360-degree images, video walkthroughs, vehicle history reports, and EMI calculators. Authenticated users can post listings with ease, edit prices, or respond to inquiries — all from a responsive dashboard interface.
+
+      Dealerheim supports a review system, favoriting, chat-based negotiation, and multi-language support. The site is mobile-optimized and includes dealer analytics like traffic sources, listing performance, and pricing suggestions based on market data.
+
+      For car enthusiasts and serious sellers alike, Dealerheim is a modern, professional-grade marketplace that redefines digital auto sales.
+      `
+    ,
     tags: [
       {
         name: "MERNStack",
@@ -360,7 +400,11 @@ const projects = [
       },
       {
         name: "Frontend Development",
-        color: "blue-text-gradient",
+        color: "white-text-gradient",
+      },
+      {
+        name: "BootStrap",
+        color: "pink-text-gradient",
       },
 
     ],
@@ -369,8 +413,18 @@ const projects = [
   },
   {
     name: "Car Detailing",
-    description:
-      "Car Detailing is a SAAS platform that streamlines the car detailing process. Whether you're a professional or an owner, access a range of services to maintain and improve your vehicle’s appearance, all in one place.",
+    description: `
+    Car Detailing is a SaaS platform designed to modernize the auto-detailing industry. Whether you're an individual looking to book a detailing service or a professional detailing business managing multiple clients, this application covers it all.
+
+    Built with Angular and Node.js, Car Detailing offers users a beautiful and snappy interface. Features include location-based booking, service customization (interior, exterior, ceramic coating, etc.), appointment management, and automated reminders.
+
+    Professionals can create service packages, assign technicians, and generate real-time invoices. Each job can include before-and-after images, notes, and checklists — all accessible via the client portal.
+
+    The admin panel is loaded with analytics tools such as monthly revenue, top customers, most requested services, and technician performance. Businesses can also send promotional emails, offer loyalty programs, and manage multiple locations.
+
+    With role-based access, secure logins, and cloud backup, the platform ensures both security and performance — making it the go-to SaaS for detailing pros.
+    `
+    ,
     tags: [
       {
         name: "MEANStack",
@@ -402,8 +456,18 @@ const projects = [
   },
   {
     name: "EverGreen",
-    description:
-      "Evergreen is a modern web application built with Next.js, Tailwind CSS, and AOS (Animate On Scroll). It features smooth animations, responsive design, and real-time data handling that exports CSV files and updates a live Excel sheet.",
+    description: `
+    EverGreen is a powerful, responsive SaaS dashboard designed with sustainability and modern development practices in mind. Built using Next.js and Tailwind CSS, it offers smooth transitions and animations powered by AOS (Animate On Scroll).
+
+    EverGreen allows users to manage and visualize real-time data from various sources. Its standout feature is the ability to export data into CSV format and simultaneously sync it with a live Excel sheet via integrated APIs. This is ideal for businesses and research teams that require live reporting and downloadable datasets.
+
+    The dashboard features interactive graphs, progress indicators, smart filtering, and user-level customization. With a keen focus on UI/UX, it uses clean typography, intuitive layouts, and dark/light mode switching.
+
+    Use-cases include energy consumption tracking, team productivity reporting, customer behavior insights, and more. The app supports JWT-based auth, API middleware, and SSG/SSR capabilities for performance.
+
+    EverGreen is more than a dashboard — it's a data-driven operating center for teams that think green and act fast.
+    `
+    ,
     tags: [
       {
         name: "SaaS Development",
