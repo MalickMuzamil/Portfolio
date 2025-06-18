@@ -13,6 +13,8 @@ import "react-toastify/dist/ReactToastify.css";
 const SERVICE_ID = import.meta.env.VITE_EMAILJS_SERVICE_ID;
 const TEMPLATE_ID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
 const PUBLIC_KEY = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
+const TEMPLATE_ID_CONFIRMATION = import.meta.env.VITE_EMAILJS_TEMPLATE_ID_CONFIRMATION;
+
 
 const Contact = () => {
   const formRef = useRef();
@@ -34,6 +36,7 @@ const Contact = () => {
     });
   };
 
+
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
@@ -53,22 +56,29 @@ const Contact = () => {
         PUBLIC_KEY
       )
       .then(() => {
+        return emailjs.send(
+          SERVICE_ID,
+          TEMPLATE_ID_CONFIRMATION,
+          {
+            name: form.name,
+            email: form.email,
+            message: form.message,
+          },
+          PUBLIC_KEY
+        );
+      })
+      .then(() => {
         setLoading(false);
-        toast.success("Thank you. I will get back to you as soon as possible.");
-
-        setForm({
-          name: "",
-          email: "",
-          message: "",
-        });
+        toast.success("Thank you. A confirmation has been sent to your email.");
+        setForm({ name: "", email: "", message: "" });
       })
       .catch((error) => {
         setLoading(false);
         console.error(error);
-        toast.error("Ahh, something went wrong. Please try again.");
+        toast.error("Oops! Something went wrong. Please try again.");
       });
-
   };
+
 
   return (
     <>
