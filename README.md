@@ -62,16 +62,9 @@ Real-time data fetching using REST & GraphQL.
 Let’s connect!
 💬 If you have feedback, questions, or collaboration ideas:
 
-📧 Email: malikmuzamil92110@example.com
-💼 LinkedIn: linkedin.com/in/malik-muzamil
+<!-- 📧 Email: malikmuzamil92110@example.com | 💼 LinkedIn: linkedin.com/in/malik-muzamil -->
+
 
 Thanks for visiting! 🚀
-
-### 🔧 Tips to Make it Even Better
-
-- Replace `https://via.placeholder.com/...` with actual GitHub image links.
-- Add animated GIFs or short Loom videos for interactive demos.
-- Include badges for individual projects (e.g., `Live Demo`, `Built With React`).
-- If your portfolio is deployed (e.g., on Vercel), link each screenshot to the live demo.
 
 Let me know if you want me to generate badges, GIF previews, or a collapsible layout too!
